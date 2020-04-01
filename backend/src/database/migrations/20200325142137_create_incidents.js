@@ -14,5 +14,5 @@ exports.up = function (knex) {
 };
 
 exports.down = function (knex) {
-    return table.schema.dropTable('incidents')
+    return knex.schema.dropTable('incidents')
 };

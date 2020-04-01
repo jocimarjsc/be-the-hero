@@ -29,10 +29,10 @@ export default function Register() {
         try {
             const response = await api.post('ongs', data);
 
-            alert(`Seu ID de acesso ${response.data.id}`);
+            alert(`Seu ID de acesso ${response.data.id}, não se preocupe, enviamos par ao seu e-mail.`);
             history.push('/')
         } catch (err) {
-            alert('Erro no cadastro tente novamente.');
+            alert(`Erro no cadastro tente novamente.`);
         }
     }
     return (
