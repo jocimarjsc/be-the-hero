@@ -5,8 +5,8 @@ module.exports = {
         const account = nodeMailer.createTransport({
             service: 'Gmail',
             auth: {
-                user: 'carossomeister@gmail.com',
-                pass: 'Thous@nds1234',
+                user: '',
+                pass: '',
             }
         });
 
